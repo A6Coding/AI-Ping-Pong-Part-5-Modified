@@ -1,0 +1,46 @@
+body
+{
+background-size: cover;
+}
+
+.heading{
+    width:100%;
+    text-align: left;
+}
+
+.heading button{
+    float:right;
+    border:1px solid white;
+}
+
+.heading h3{
+    display: inline;
+}
+
+#start, #status{
+    font-size:24px;
+}
+
+#footer{
+    width:100%;
+    position:fixed;
+    bottom:0;
+    background-color: white;
+    color:black;
+    margin:0;
+}
+
+#restart{
+    font-size: 24px;
+}
+
+.modal-dialog{
+    width:90%;
+    height:90%;
+}
+
+canvas{
+    box-shadow: 2px 2px 2px gainsboro;
+    border-radius: 15px;
+    border-color: white;
+}
